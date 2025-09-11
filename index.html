@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>رستوران الحیات - بهترین غذاهای ایرانی و افغانی</title>
-    <meta name="description" content="رستوران الحیات ارائه دهنده بهترین غذاهای ایرانی و افغانی با کیفیت عالی و خدمات سریع. سفارش آنلاین غذا با امکان تحویل در محل.">
-    <meta name="keywords" content="رستوران الحیات, غذای ایرانی, غذای افغانی, سفارش آنلاین غذا, غذاهای محلی, کباب, قورمه سبزی, غذاهای خانگی">
+    <title>رستورانت الحیات - بهترین غذاهای افغانی</title>
+    <meta name="description" content="رستورانت الحیات ارائه دهنده بهترین غذاهای افغانی با کیفیت عالی و خدمات سریع. سفارش آنلاین غذا با امکان تحویل در محل.">
+    <meta name="keywords" content="رستورانت الحیات,غذای افغانی, سفارش آنلاین غذا, غذاهای محلی, کباب, قورمه سبزی, غذاهای خانگی">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="data.js" defer></script>
     <style>
@@ -885,8 +885,8 @@
                     <label for="delivery">نحوه تحویل:</label>
                     <select id="delivery" name="delivery" required>
                         <option value="">انتخاب کنید</option>
-                        <option value="delivery">ارسال به آدرس</option>
-                        <option value="pickup">تحویل در فروشگاه</option>
+                        <option value="delivery"> ارسال سفارش درب منزل </option>
+                        <option value="pickup">سفارش در  رستورانت </option>
                     </select>
                     <div class="error-message" id="deliveryError">لطفاً نحوه تحویل را انتخاب کنید</div>
                 </div>
@@ -930,14 +930,14 @@
         <!-- فوتر و بخش شبکه های اجتماعی -->
         <footer class="footer">
             <div class="footer-content">
-                <h3>رستوران الحیات</h3>
-                <p>بهترین غذاهای ایرانی و افغانی با کیفیت عالی</p>
+                <h3>رستورانت الحیات</h3>
+                <p>بهترین غذاهای افغانی با کیفیت عالی</p>
                 
                 <div class="social-links">
                     <a href="https://t.me/restaurant_alhayat" class="social-icon telegram" target="_blank">
                         <i class="fab fa-telegram"></i>
                     </a>
-                    <a href="https://wa.me/93777777777" class="social-icon whatsapp" target="_blank">
+                    <a href="https://wa.me/989939277416" class="social-icon whatsapp" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                     <a href="https://instagram.com/restaurant_alhayat" class="social-icon instagram" target="_blank">
@@ -949,7 +949,7 @@
                 </div>
                 
                 <div class="copyright">
-                    <p>© ۲۰۲۳ رستوران الحیات. تمام حقوق مادی و معنوی این سایت محفوظ است.</p>
+                    <p>© 2025 رستورانت الحیات. تمام حقوق مادی و معنوی این سایت محفوظ است.</p>
                 </div>
             </div>
         </footer>
@@ -1359,12 +1359,12 @@
         }
         
         function makeCall() {
-            window.location.href = 'tel:+93777777777'; // شماره تلفن خود را جایگزین کنید
+            window.location.href = 'tel:+93701326081'; // شماره تلفن خود را جایگزین کنید
             toggleChatOptions();
         }
         
         function startChat() {
-            window.open('https://wa.me/93777777777', '_blank'); // شماره واتساپ خود را جایگزین کنید
+            window.open('https://wa.me/989939277416', '_blank'); // شماره واتساپ خود را جایگزین کنید
             toggleChatOptions();
         }
         
@@ -1420,7 +1420,7 @@
                     
                     // نمایش لینک موقعیت برای تست
                     locationLink.href = geoUri;
-                    locationLink.textContent = '📍 باز کردن موقعیت در اپلیکیشن نقشه';
+                    locationLink.textContent = '📍 باز کردن موقعیت در MAP نقشه';
                     locationLink.style.display = 'block';
                     testLocation.style.display = 'block';
                     
@@ -1515,7 +1515,7 @@
         // تابع ارسال به تلگرام
         async function sendToTelegram(orderData) {
             const message = `
-🛒 سفارش جدید از رستوران
+🛒 سفارش جدید از رستورانت الحیات
 👤 نام: ${orderData.name}
 📞 تلفن: ${orderData.phone}
 📍 آدرس: ${orderData.address}
