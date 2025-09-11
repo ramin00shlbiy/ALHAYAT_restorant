@@ -1,67 +1,63 @@
 // داده‌های محصولات
 const allProducts = [
     {
-        
-{
-    id: "chick-001",
-    name: " چکن شورمه ",
-    price: "250",
-    image: "https://cdn.jsdelivr.net/gh/ramin00shlbiy/Image.Subdirector@main/alhayat/photo.chips.jpg",
-    details: {
-        title: "جزئیات چکن شورمه",
-        content: `
-            <p>بهترین چکن شورمه را در الحیات نوش جان کنید:</p>
-            <ul>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-            </ul>
-        `
-    }
-}
-
-{
-    id: "chick-002",
-    name: " چکن شورمه ",
-    price: "250",
-    image: "https://cdn.jsdelivr.net/gh/ramin00shlbiy/Image.Subdirector@main/alhayat/photo.chips.jpg",
-    details: {
-        title: "جزئیات چکن شورمه",
-        content: `
-            <p>بهترین چکن شورمه را در الحیات نوش جان کنید:</p>
-            <ul>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-            </ul>
-        `
-    }
-}
-
-{
-    id: "chick-003",
-    name: " چکن شورمه ",
-    price: "250",
-    image: "https://cdn.jsdelivr.net/gh/ramin00shlbiy/Image.Subdirector@main/alhayat/photo.chips.jpg",
-    details: {
-        title: "جزئیات چکن شورمه",
-        content: `
-            <p>بهترین چکن شورمه را در الحیات نوش جان کنید:</p>
-            <ul>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-                <li>به زودی</li>
-            </ul>
-        `
-    }
-}
-
+        id: "chick-001",
+        name: " چکن شورمه ",
+        price: "250",
+        image: "https://cdn.jsdelivr.net/gh/ramin00shlbiy/Image.Subdirector@main/alhayat/photo.chips.jpg",
+        details: {
+            title: "جزئیات چکن شورمه",
+            content: `
+                <p>بهترین چکن شورمه را در الحیات نوش جان کنید:</p>
+                <ul>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                </ul>
+            `
+        }
+    },
+    {
+        id: "chick-002",
+        name: " چکن شورمه ",
+        price: "250",
+        image: "https://cdn.jsdelivr.net/gh/ramin00shlbiy/Image.Subdirector@main/alhayat/photo.chips.jpg",
+        details: {
+            title: "جزئیات چکن شورمه",
+            content: `
+                <p>بهترین چکن شورمه را در الحیات نوش جان کنید:</p>
+                <ul>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                </ul>
+            `
+        }
+    },
+    {
+        id: "chick-003",
+        name: " چکن شورمه ",
+        price: "250",
+        image: "https://cdn.jsdelivr.net/gh/ramin00shlbiy/Image.Subdirector@main/alhayat/photo.chips.jpg",
+        details: {
+            title: "جزئیات چکن شورمه",
+            content: `
+                <p>بهترین چکن شورمه را در الحیات نوش جان کنید:</p>
+                <ul>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                    <li>به زودی</li>
+                </ul>
+            `
+        }
+    },
+    {
         id: "tea-003",
         name: "چای سیاه",
         price: "300",
